@@ -1,0 +1,7 @@
+services:
+  decypharrseed:
+    image: ghcr.io/aerya/0xconstant1-stremio-addon-manager:latest
+    container_name: stremio-addon-manager-new
+    restart: always
+    ports:
+      - "8061:80"
